@@ -1,31 +1,30 @@
 # PaperMind
 
-"Upload dokumen → AI memahami → User bebas bertanya"
+> "Upload dokumen → AI memahami → User bebas bertanya"
 
 ---
 
-TIM KELOMPOK 1
+## Tim Kelompok 1 — Mata Kuliah Kecerdasan Buatan
 
-1. Dhika Adithya         - 241111005
-2. Audy Nur Azzahra      - 241111017
-3. Selpiana              - 241111053
-4. Edo Rizki Firnando    - 241111043
+| No | Nama | NPM |
+|----|------|-----|
+| 1 | Dhika Adithya | 241111005 |
+| 2 | Audy Nur Azzahra | 241111017 |
+| 3 | Edo Rizki Firnando | 241111043 |
+| 4 | Selpiana | 241111053 |
 
-Mata Kuliah  : Kecerdasan Buatan
-Dosen        : Rikky Wisnu Nugraha, S.T., M.Kom., MOS., MCE., MTA.
-Universitas  : Universitas Widyatama
-
----
-
-PaperMind adalah platform web berbasis AI yang memungkinkan pengguna 
-untuk mengupload dokumen dan berdiskusi dengan AI berdasarkan isi 
-dokumen tersebut. AI hanya menjawab berdasarkan isi dokumen yang 
-diupload, sehingga jawaban tetap akurat dan tidak keluar dari konteks.
-Dibangun sebagai tugas mata kuliah Kecerdasan Buatan.
+**Dosen:** Rikky Wisnu Nugraha, S.T., M.Kom., MOS., MCE., MTA.
+**Universitas:** Universitas Widyatama
 
 ---
 
-FITUR UTAMA
+## Deskripsi
+
+PaperMind adalah platform web berbasis AI yang memungkinkan pengguna untuk mengupload dokumen dan berdiskusi dengan AI berdasarkan isi dokumen tersebut. AI hanya menjawab berdasarkan isi dokumen yang diupload, sehingga jawaban tetap akurat dan tidak keluar dari konteks.
+
+---
+
+## Fitur Utama
 
 - Upload Dokumen — Support PDF, Word, PowerPoint, Excel, TXT, Markdown
 - Document Insight — Topik, kata kunci, penulis, tahun muncul otomatis
@@ -40,19 +39,22 @@ FITUR UTAMA
 
 ---
 
-TECH STACK
+## Tech Stack
 
+```
 Frontend   : React + Vite + Tailwind CSS
 Backend    : FastAPI (Python)
 AI         : Groq API (llama-3.3-70b-versatile)
 Database   : Supabase (PostgreSQL)
 Auth       : Supabase Auth
 PDF Parser : PyMuPDF + Tesseract OCR
+```
 
 ---
 
-STRUKTUR FOLDER
+## Struktur Folder
 
+```
 PAPERMIND/
 ├── backend/
 │   ├── main.py
@@ -65,3 +67,4 @@ PAPERMIND/
 │       └── supabase.js
 ├── public/
 └── .env.example
+```
