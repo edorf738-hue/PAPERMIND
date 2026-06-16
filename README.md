@@ -68,7 +68,19 @@ PAPERMIND/
 ├── public/
 └── .env.example
 ```
+
+## Batasan Sistem
+
+PaperMind dirancang khusus untuk menganalisis dokumen yang diupload.
+AI hanya dapat menjawab pertanyaan yang berkaitan dengan isi dokumen tersebut.
+Jika pertanyaan berada di luar konteks dokumen, AI akan menolak dan memberitahu
+bahwa informasi tidak ditemukan dalam dokumen.
+
+Contoh:
+- Pertanyaan seputar isi dokumen → AI menjawab ✅
+- Pertanyaan di luar konteks dokumen → AI menolak ❌
+
 ## Screenshot
 
-![Demo PaperMind](<img width="1881" height="1039" alt="Image" src="https://github.com/user-attachments/assets/e76ba38e-fdfb-4430-a788-11ddadfc5023" />)
+![Demo PaperMind](https://github.com/user-attachments/assets/e76ba38e-fdfb-4430-a788-11ddadfc5023)
 
