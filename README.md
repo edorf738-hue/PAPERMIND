@@ -1,16 +1,67 @@
-# React + Vite
+# PaperMind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+"Upload dokumen → AI memahami → User bebas bertanya"
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+TIM KELOMPOK 1
 
-## React Compiler
+Dhika Adithya         - 241111005
+Audy Nur Azzahra      - 241111017
+Edo Rizki Firnando    - 241111043
+Selpiana              - 241111053
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Mata Kuliah  : Kecerdasan Buatan
+Dosen        : Rikky Wisnu Nugraha, S.T., M.Kom., MOS., MCE., MTA.
+Universitas  : Universitas Widyatama
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+PaperMind adalah platform web berbasis AI yang memungkinkan pengguna 
+untuk mengupload dokumen dan berdiskusi dengan AI berdasarkan isi 
+dokumen tersebut. AI hanya menjawab berdasarkan isi dokumen yang 
+diupload, sehingga jawaban tetap akurat dan tidak keluar dari konteks.
+Dibangun sebagai tugas mata kuliah Kecerdasan Buatan.
+
+---
+
+FITUR UTAMA
+
+- Upload Dokumen — Support PDF, Word, PowerPoint, Excel, TXT, Markdown
+- Document Insight — Topik, kata kunci, penulis, tahun muncul otomatis
+- Chat dengan AI — Tanya apa saja seputar isi dokumen
+- Citation — Setiap jawaban AI disertai referensi halaman dan paragraf
+- Suggested Questions — AI generate pertanyaan otomatis dari dokumen
+- Template Aksi — Ringkas, Quiz, Research Gap, Metodologi, Terjemah
+- Quiz Interaktif — Pilihan ganda dan essay dengan penilaian AI
+- History — Riwayat chat tersimpan per user
+- Dark dan Light Mode
+- Auth — Login/Register atau langsung pakai tanpa login (guest mode)
+
+---
+
+TECH STACK
+
+Frontend   : React + Vite + Tailwind CSS
+Backend    : FastAPI (Python)
+AI         : Groq API (llama-3.3-70b-versatile)
+Database   : Supabase (PostgreSQL)
+Auth       : Supabase Auth
+PDF Parser : PyMuPDF + Tesseract OCR
+
+---
+
+STRUKTUR FOLDER
+
+PAPERMIND/
+├── backend/
+│   ├── main.py
+│   └── requirements.txt
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── context/
+│   └── lib/
+│       └── supabase.js
+├── public/
+└── .env.example
