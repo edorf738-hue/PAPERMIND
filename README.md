@@ -6,10 +6,10 @@
 
 TIM KELOMPOK 1
 
-Dhika Adithya         - 241111005
-Audy Nur Azzahra      - 241111017
-Edo Rizki Firnando    - 241111043
-Selpiana              - 241111053
+1. Dhika Adithya         - 241111005
+2. Audy Nur Azzahra      - 241111017
+3. Selpiana              - 241111053
+4. Edo Rizki Firnando    - 241111043
 
 Mata Kuliah  : Kecerdasan Buatan
 Dosen        : Rikky Wisnu Nugraha, S.T., M.Kom., MOS., MCE., MTA.
