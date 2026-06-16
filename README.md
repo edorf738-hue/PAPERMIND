@@ -68,3 +68,7 @@ PAPERMIND/
 ├── public/
 └── .env.example
 ```
+## Screenshot
+
+![Demo PaperMind](https://github.com/user-attachments/assets/fa03e2b8-e96b-40cf-b1f6-2cc379c80182)
+
