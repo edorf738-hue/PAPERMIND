@@ -70,5 +70,5 @@ PAPERMIND/
 ```
 ## Screenshot
 
-![Demo PaperMind](https://github.com/user-attachments/assets/fa03e2b8-e96b-40cf-b1f6-2cc379c80182)
+![Demo PaperMind](<img width="1881" height="1039" alt="Image" src="https://github.com/user-attachments/assets/e76ba38e-fdfb-4430-a788-11ddadfc5023" />)
 
